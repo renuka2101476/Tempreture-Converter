@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap'); */
+        
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+body 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.container 
+{
+    width: 550px;
+    border: 2px solid rgb(225, 88, 9);
+    background-color: azure;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 20px 10px;
+    box-shadow: 0px 0px 10px rgba(50, 49, 49, .6);
+    height: auto;
+}
+
+.hed 
+{
+    font-size: 35px;
+    color: rgb(227, 140, 17);
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.boxcontainer 
+{
+    display: flex;
+    margin: 15px;
+    gap: 34px;
+}
+
+p 
+{
+    font-size: 1rem;
+    color: rgb(227, 146, 15);
+    padding: 5px 2px;
+    font-family: sans-serif;
+}
+
+.box1 
+{
+    width: 50%;
+    padding: 10px 5px;
+    /* border: 1px solid red; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.takval,
+#unit 
+{
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(227, 146, 15);
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 4px solid rgb(227, 146, 15);
+}
+
+#unit 
+{
+    font-size: 1.1rem;
+    margin-top: 6.5px;
+    
+}
+
+.valuecontainer 
+{
+    margin: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.valuecontainer p
+{
+    margin: 10px;
+    font-size: 1rem;
+    color: rgb(231, 158, 21);
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.value 
+{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(223, 164, 17);
+    border-bottom: 4px solid rgb(227, 146, 15);
+}
+
+.button 
+{
+    width: 50%;
+    left: 30%;
+    height: auto;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(241, 76, 0);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0 0 122px;
+    letter-spacing: 2px;
+}
+
